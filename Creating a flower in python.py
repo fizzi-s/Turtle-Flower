@@ -15,7 +15,7 @@ for i in range(6):  #loop draws 6 petals
 #Corona of flower 
 pen.penup()   #pen lifted such that no line is drawn
 pen.goto(0,-20)   #pen in the middle of all the petals
-pen.pendown()   #pen down to draw corona
+pen.pendown()   #pen down to draw pistil
 pen.color("yellow")
 pen.begin_fill()
 pen.circle(20)    #small circle drawn
